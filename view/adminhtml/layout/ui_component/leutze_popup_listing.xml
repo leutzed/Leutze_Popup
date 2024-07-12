@@ -169,12 +169,12 @@
                 <label translate="true">Modified</label>
             </settings>
         </column>
-        <!-- <actionsColumn name="actions" class="Leutze\Popup\Ui\Component\Listing\Column\PopupActions">
+        <actionsColumn name="actions" class="Leutze\Popup\Ui\Component\Listing\Column\PopupActions">
             <settings>
                 <indexField>popup_id</indexField>
                 <resizeEnabled>false</resizeEnabled>
                 <resizeDefaultWidth>107</resizeDefaultWidth>
             </settings>
-        </actionsColumn> -->
+        </actionsColumn>
     </columns>
 </listing>
