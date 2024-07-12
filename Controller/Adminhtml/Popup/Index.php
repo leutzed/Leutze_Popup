@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Leutze\Popup\Controller\Adminhtml\Index;
+namespace Leutze\Popup\Controller\Adminhtml\Popup;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\Controller\ResultFactory;
