@@ -26,7 +26,7 @@
             <updateUrl path="mui/index/render"/>
         </settings>
         <aclResource>Leutze_Popup::popup</aclResource>
-        <dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider" name="leutze_popup_listing_data_source">
+        <dataProvider class="Leutze\Popup\Ui\Component\DataProvider" name="leutze_popup_listing_data_source">
             <settings>
                 <requestFieldName>id</requestFieldName>
                 <primaryFieldName>popup_id</primaryFieldName>

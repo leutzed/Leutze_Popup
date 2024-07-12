@@ -77,5 +77,4 @@ class Popup extends AbstractModel implements PopupInterface {
     public function setTimeout(int $timeout){
         $this->setData(self::TIMEOUT, $timeout);
     }
-
 }

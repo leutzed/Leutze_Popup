@@ -3,8 +3,16 @@
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
-                <item name="leutze_popup_listing_data_source" xsi:type="string">Magento\Cms\Model\ResourceModel\Page\Grid\Collection</item>
+                <item name="leutze_popup_listing_data_source" xsi:type="string">Leutze\Popup\Model\ResourceModel\Popup\Grid\Collection</item>
             </argument>
+        </arguments>
+    </type>
+    <type name="Leutze\Popup\Model\ResourceModel\Popup\Grid\Collection">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">leutze_popup</argument>
+            <argument name="eventPrefix" xsi:type="string">leutze_popup_grid_collection</argument>
+            <argument name="eventObject" xsi:type="string">popup_grid_collection</argument>
+            <argument name="resourceModel" xsi:type="string">Leutze\Popup\Model\ResourceModel\Popup</argument>
         </arguments>
     </type>
 </config>
